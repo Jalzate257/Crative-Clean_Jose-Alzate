@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1400px;
+    height: 3329px;
+}
+/*STYLE HEADER*/
+header{
+    background: url(/Assets/bgHeader.png);
+    height: 790px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+
+}
+h1{
+    margin: 150px 20px 10px 20px;
+    color: orange;
+    font-size: 75px;
+}
+h2{
+    font-size: 32px;
+    margin: 10px 15px 120px 15px;
+}
+button{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 50px;
+    width: 80px;
+    color: white;
+    border-color: orange;
+}
+/*STYLE SECTION*/
+section{
+    height: 1364px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*Seccion1 de SECTION*/
+#seccionUno{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    width: 1400px;
+    height: 50%;
+}
+#tituloseccionuno{
+    color: orange;
+    width: auto;
+    font-size: 50px;
+    line-height: 70px;
+    margin: 0px 0px 35px 0px;
+}
+#imagenSeccionUno{
+    width: auto;
+    height: 550px;
+}
+#columnaUnoSeccionUno{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#parrafoSeccionUno{
+    font-size: 25px;
+    margin: 25px 25px 25px 0px;
+}
+#divbotonSeccionUno{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    margin: 25px 25px 25px 0px;
+}
+/*Seccion2 de SECTION*/
+#seccionDos{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+#imagenSeccionDos{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin-left: 25px;
+}
+#seccionDos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#parrafoSeccionDos{
+    display: flex;
+    flex-direction: column;
+    
+}
+#tituloseccionDos{
+    color: orange;
+    margin: 0px 0px 50px 0px;
+    font-size: 50px;
+    width: 670px;
+    line-height: 70px;
+}
+#subParrafoSeccionDos{
+    font-size: 25px;
+    margin: 0px 0px 50px 0px;
+}
+/*STYLE SECCION 3*/
+#seccionTres{
+    background-color: aqua;
+    height: 570px;
+    background: url(../Assets/bgDown.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#tituloSeccionTres{
+    color: orange;
+    font-size: 40px;
+    line-height: 55px;
+    margin: 0px 0px 15px 0px;
+}
+#subSeccionTres{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 190px;
+
+}
+#parrafoSeccionTres{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    width: 460px;
+    margin-bottom: 20px;
+}
+#botonSeccionTres{
+    width: 200px;
+    font-size: 15px;
+}
+/*STYLE FOOTER*/
+footer{
+    height: auto;
+    width: auto;
+    background:linear-gradient(90deg,rgb(252, 193, 84),orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#listaGeneral{
+    display: flex;
+    justify-content: space-around;
+    margin: 65px 0px 75px 0px;
+    font-size: 20px;
+}
+#textoFinal{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 1400px;
+    height: 55px;
+    font-size: 16px;
+    color: white;
+}
+#contenedorTextoFinal{
+    box-shadow: 5px 5px 15px;
+}
+.itemSeparados{
+    margin-bottom: 45px;
+}
+ul{
+    color: white;
+    list-style: none;
+    line-height: 30px;
+}
